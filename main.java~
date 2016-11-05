@@ -1,0 +1,21 @@
+public class main {
+  public static void main (String [] args) {
+   Queue myQueue = new Queue();
+    Stack myStack = new Stack();
+    
+     myStack.push("Brandon");
+     myStack.push("Irene");
+     myStack.push("Martin");
+     myStack.push("Emily");
+     myStack.push("Alec");
+     
+     myStack.pop().print();
+       myStack.pop().print();
+       myStack.pop().print();
+       myStack.pop().print();
+       myStack.pop().print();
+       
+       System.out.println("done with stack");
+   
+  }
+}
